@@ -567,10 +567,11 @@ body:not(.vertical-collpsed)  .sidebar-menu-scroll{
   display: block;
 }
 .vertical-collpsed .vertical-menu {
-  position: fixed;
+  /* position: fixed; */
   width: 70px !important;
   z-index: 1001;
   overflow-y: auto;
+  overflow-x: visible;
 }
 .vertical-collpsed .vertical-menu::-webkit-scrollbar{
   width: 2px;
