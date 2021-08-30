@@ -1,20 +1,30 @@
 .dashboard .card{
     height: 100px;
+    transition: .5s;
 }
-
+.dashboard .card:hover{
+    transform: scale(1.04);
+    /* box-shadow: 0 2px 7px rgba(15, 34, 58, 0.398); */
+}
+.dashboard .card:hover i,.dashboard .card:hover h5{
+    color: #f1b44c!important;
+}
 .dashboard .card-header{
     padding: 30px;
     display: flex;
     align-items: center;
     height: 100%;
+    transition: .5s;
 }
 
 .dashboard .card-header i{
     margin-right: 20px;
     font-size: 30px;
+    transition: .5s;
 }
 .dashboard .card-header h5{
     margin-right: 20px;
+    transition: .5s;
 }
 .breadcrumb{
     position: relative;
