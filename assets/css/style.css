@@ -1,0 +1,53 @@
+.dashboard .card{
+    height: 100px;
+}
+
+.dashboard .card-header{
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.dashboard .card-header i{
+    margin-right: 20px;
+    font-size: 30px;
+}
+.dashboard .card-header h5{
+    margin-right: 20px;
+}
+.breadcrumb{
+    position: relative;
+    height: 250px;
+}
+
+.breadcrumb img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+    z-index: -2;
+}
+.p-25{
+    padding: 25px
+}
+/* .breadcrumb::before{
+    background: linear-gradient(rgba(0, 0, 0, 0.597), rgba(0, 0, 0, 0.497));
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+} */
+
+.breadcrumb h3{
+    padding: 50px 25px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+
